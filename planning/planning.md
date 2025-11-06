@@ -7,7 +7,8 @@ La solution doit être déployée sur un serveur de production dans le cloud.
 
 | Date | Livrable | Pour évaluation|
 | -- | -- | -- |
-| 14 novembre 2025 | Kickoff, revision, challenge | | 
+| 14 novembre 2025 | Kickoff | | 
+| 14 novembre 2025 | Evaluation : Setup | Oui | 
 | 17 novembre 2025 | Serveur de production | Oui |
 | 20/21 novembre 2025 | Refactoring - vision d'une API propre | |
 | décembre 2025 | Data modeling et gestion | |

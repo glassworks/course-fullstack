@@ -16,7 +16,7 @@
   * [REST](./fondamenteaux/010-rest.md)
   * [Consommer un API](./fondamenteaux/015-postman.md)
 
-## Modernisation
+## Setup
   * [Introduction](./modernisation/intro.md)
   * [Développement local](./modernisation/localdev.md)
   * [Evaluation](./modernisation/eval.md)
@@ -24,9 +24,11 @@
 ## Déploiement
   * [Introduction](./prod/intro.md)
   * [Connexion SSH](./prod/ssh.md)
-  * [Docker](./prod/docker.md)
   * [Essentiels de sécurité](./prod/security.md)  
-  * [Stockage](./prod/storage.md)
+  * [Chiffrage au repos](./prod/encryption-at-rest.md)  
+  * [Journaux](./prod/logs.md)  
+  * [Docker](./prod/docker.md)
+  * [Data](./prod/data.md)
   * [Ingress - nginx](./prod/ingress.md)
   * [Evaluation](./prod/eval.md)
 
@@ -36,7 +38,9 @@
   * [Identification & Autorisation](./refactor/identity.md)
   * [Documentation](./refactor/docs.md)
   * [Validation](./refactor/validation.md)
-  * [Evaluation](./prod/eval.md)
+  * [Logs](./refactor/logs.md)
+  * [Evaluation](./refactor/eval.md)
+  
 
 ## CI/CD
   * [Introduction](./refacto/intro.md)

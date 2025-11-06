@@ -1,12 +1,20 @@
 # Déploiement 
 
-La première phase d'évaluation correspond à ce que je considère généralement comme la phase de démarrage de tout projet.
+Le déploiement d'un produit peut souvent s'avérer être une tâche complexe, mais néanmoins importante.
 
-Elle répond à la question suivante : comment vais-je livrer ce produit à mon client ou à mes utilisateurs ?
+Dans l'esprit du développement Agile, il est essentiel de pouvoir présenter au client des résultats dès les premières phases.
 
-En général, cela implique de mettre en place toutes les conditions nécessaires à la fourniture du produit final. Normalement, je commence par une version très basique de mon produit :
-- pour une application web, une simple page qui affiche « Hello World », déployée sur un serveur de test ou de production
-- pour une API, une API simple avec un seul point de terminaison fonctionnant sur un serveur
-- pour une expérience de réalité virtuelle, il peut s'agir d'un simple monde en 3D avec un texte flottant que je peux charger sur un casque
+Je recommande toujours de mettre en place un environnement de déploiement dès le début d'un projet. Cela permet :
 
-Comme vous le découvrirez, la simple mise en place de toutes les conditions préalables à cette livraison peut prendre beaucoup de temps et nécessite un certain nombre de compétences. 
+- d'identifier et de définir certaines des contraintes qui pourraient avoir un impact sur notre développement
+- de s'assurer que vous disposez d'un moyen de déployer les versions chez le client, sans stress de dernière minute
+- de traiter sereinement des questions importantes telles que la sécurité. Les précipitations de dernière minute sont l'ennemi d'une configuration sécurisée.
+
+
+Dans le cadre de ce projet, vous êtes tenu de configurer un environnement de déploiement entièrement fonctionnel sur un serveur privé virtuel (VPS) qui vous sera fourni. Ce VPS dispose d'un système d'exploitation de base (Ubuntu), mais aucune autre fonctionnalité. Vous devrez maîtriser et démontrer que :
+
+- vous pouvez vous connecter de manière sécurisée au VPS
+- vous pouvez configurer votre VPS de manière sécurisée
+- vous pouvez configurer le VPS pour exécuter les services requis
+- vous pouvez vous assurer que vos services sont également sécurisés et ne présentent aucune faille exploitable
+- vous pouvez mettre en place un flux de travail automatique pour le déploiement sur ce serveur (CD)
