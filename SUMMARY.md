@@ -30,6 +30,8 @@
   * [Docker](./prod/docker.md)
   * [Data](./prod/data.md)
   * [Ingress - nginx](./prod/ingress.md)
+  * [Deploiement API](./prod/deployment.md)
+  * [Observabilité](./prod/observability.md)
   * [Evaluation](./prod/eval.md)
 
 ## Refactoring
@@ -45,3 +47,4 @@
 ## CI/CD
   * [Introduction](./refacto/intro.md)
   * [Evaluation](./prod/eval.md)
+
